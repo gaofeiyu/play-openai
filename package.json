@@ -1,0 +1,35 @@
+{
+  "name": "play-openai",
+  "version": "0.0.0",
+  "description": "Learn and Play OpenAI",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaofeiyu/play-openai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaofeiyu/play-openai/issues"
+  },
+  "homepage": "https://github.com/gaofeiyu/play-openai#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chatgpt": "3.3.1",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "openai": "3.1.0",
+    "puppeteer": "19.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
